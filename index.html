@@ -10,7 +10,7 @@
 
 <body>
     <!-- changed div to header -->
-    <header class="header">
+    <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
         <!-- changed div to nav since this is the navigation bar -->
         <nav>
@@ -35,7 +35,7 @@
         <section class="content">
             <!-- need to include call on ID selector reference -->
             <!-- changed div to figure since the image is related to the content -->
-            <figure id="search-engine-optimization" class="search-engine-optimization">
+            <figure id="search-engine-optimization" class="services">
                 <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
                 <h2>Search Engine Optimization</h2>
                 <p>
@@ -43,7 +43,8 @@
                 </p>
             </figure>
             <!-- changed div to figure since the image is related to the content -->
-            <figure id="online-reputation-management" class="online-reputation-management">
+            <!-- removed class selector and merged it into the parent class selector 'content' in CSS -->
+            <figure id="online-reputation-management" class="services">
                 <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
                 <h2>Online Reputation Management</h2>
                 <p>
@@ -51,7 +52,8 @@
                 </p>
             </figure>
             <!-- changed div to figure since the image is related to the content -->
-            <figure id="social-media-marketing" class="social-media-marketing">
+            <!-- removed class selector and merged it into the parent class selector 'content' in CSS -->
+            <figure id="social-media-marketing" class="services">
                 <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
                 <h2>Social Media Marketing</h2>
                 <p>
@@ -59,24 +61,25 @@
                 </p>
             </figure>
         </section>
-        <!-- changed div to aside because these elements are additional information -->
+        <!-- changed div to aside because these elements are additional information on the side -->
         <aside class="benefits">
             <!-- changed div to section since each piece of content here is related -->
-            <section class="benefit-lead">
+            <!-- removed class selector and consolidated it under the 'benefits' parent class -->
+            <section>
                 <h3>Lead Generation</h3>
                 <img src="./assets/images/lead-generation.png" />
                 <p>
                     Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
                 </p>
             </section>
-            <section class="benefit-brand">
+            <section>
                 <h3>Brand Awareness</h3>
                 <img src="./assets/images/brand-awareness.png" />
                 <p>
                     Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
                 </p>
             </section>
-            <section class="benefit-cost">
+            <section>
                 <h3>Cost Management</h3>
                 <img src="./assets/images/cost-management.png" />
                 <p>
@@ -86,7 +89,7 @@
         </aside>
     </main>
     <!-- changed div to footer -->
-    <footer class="footer">
+    <footer>
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2024 Horiseon Social Solution Services, Inc.
