@@ -10,7 +10,8 @@ body {
     background-color: #d9dcd6;
 }
 
-/* Element Selector - defines all instances of the 'header' semantic tag element */
+/* Element Selector - defines all instances of the 'header' semantic tag element
+   Includes child class selectors below for the following HTML semantic tags (NOTE: 'seo' is a class) */
 /* Changed class selector to element selector because header is a HTML semantic tag */
 header {
     padding: 20px;
@@ -61,6 +62,7 @@ p {
     font-size: 16px;
 }
 
+/* Class Selector - adds a decorative image to the webpage with specific parameters */
 .hero {
     height: 800px;
     width: 100%;
@@ -70,22 +72,51 @@ p {
     background-position: center;
 }
 
+/* Class Selector - float for defining left aligment on the webpage */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Class Selector - float for defining right aligment on the webpage */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Class Selector - defines all elements that call the 'content' class
+   Includes child class selectors below for the following HTML semantic tags */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Consolidated class element selectors into a singular one for each of the services offered
+   Converted class selector into the child of the 'content' selector and renamed to match HTML elements
+   Moved set of class selectors right below the parent and to follow the HTML element structure */
+.content figure {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Consolidated class element selectors of child and renamed it to match the parent */
+.content img {
+    max-height: 200px;
+}
+
+/* Consolidated class element selectors of child and renamed it to match the parent */
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Class Selector - defines all elements that call the 'benefits' class
+   Includes child class selectors below for the following HTML semantic tags */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -117,28 +148,8 @@ p {
     max-width: 150px;
 }
 
-/* Consolidated class element selectors into a singular one for each of the services offered */
-.services {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Consolidated class element selectors of child and renamed it to match the parent */
-.services img {
-    max-height: 200px;
-}
-
-/* Consolidated class element selectors of child and renamed it to match the parent */
-.services h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Element Selector - defines all instances of the 'footer' semantic tag element */
+/* Element Selector - defines all instances of the 'footer' semantic tag element
+   Includes child class selectors below for the following HTML semantic tags */
 /* Changed class selector to element selector because footer is a HTML semantic tag */
 footer {
     padding: 30px;
@@ -147,6 +158,7 @@ footer {
     text-align: center;
 }
 
+/* Parent selector was changed from class selector to element selector so the child name needs to match */
 footer h2 {
     font-size: 20px;
 }
