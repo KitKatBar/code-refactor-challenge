@@ -12,7 +12,9 @@ No installation is required!  This code has been deployed to GitHub Pages so tha
 
 ## Usage
 
-Please refer to this image showing the layout of the application: https://github.com/KitKatBar/code-refactor-challenge/blob/main/assets/images/01-html-css-git-homework-demo.png
+Please refer to this image showing the layout of the application: 
+
+![sample layout of website](https://github.com/KitKatBar/code-refactor-challenge/blob/main/assets/images/01-html-css-git-homework-demo.png)
 
 The navigation bar at the top right should all link to their respective sections when you click on them.  Each of the images/icons will have alternative text should they break, except for the image below the navigation bar and above all the other pieces of content because this is only for decorative purposes.  To view the alternative text, you may open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows) or you can right click -> 'Inspect' on each of the images/icons.  Please note that this is for Google Chrome and may be different if you are using different browsers.  If you used right click -> 'Inspect' on each of the images/icons, you should be able to already see the alternative text fo each of the images/icons.  Otherwise, you will need to navigate the HTML elements in Chrome DevTools to find the alternative texts.
 
